@@ -1,0 +1,197 @@
+{% extends "base.html" %}
+
+{% block div %}
+
+<!--This is the start of top navigation bar-->
+<div class="topnav">
+  <a href="/">About me</a>
+  <a class = active href="/illustration">Illustration</a>
+  <a href="/game">Game</a>                
+  <a href="/contact">Contact</a>
+</div>
+<!--This is the end of top navigation bar-->
+
+<!--This is the intro of the illustration page-->
+<p>Drawing/ painting is a hobby of mine. Check out some of my digital illustrations work :)</p>
+
+<!--This is the end of the intro of the illustration page-->
+
+
+
+<!-- Images used to open the lightbox -->
+<div class="row">
+  <div class="column">
+    <img src="/static/images/scene1.jpg" onclick="openModal();currentSlide(1)" class="hover-shadow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/static/images/scene2.jpg" onclick="openModal();currentSlide(2)" class="hover-shadow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/static/images/scene3.jpg" onclick="openModal();currentSlide(3)" class="hover-shadow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/static/images/animal1.jpg" onclick="openModal();currentSlide(4)" class="hover-shadow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/static/images/animal2.jpg" onclick="openModal();currentSlide(5)" class="hover-shadow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/static/images/animal3.jpg" onclick="openModal();currentSlide(6)" class="hover-shadow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/static/images/people1.jpg" onclick="openModal();currentSlide(7)" class="hover-shadow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/static/images/people2.jpg" onclick="openModal();currentSlide(8)" class="hover-shadow" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/static/images/people3.jpg" onclick="openModal();currentSlide(9)" class="hover-shadow" style="width:100%">
+  </div>
+
+</div>
+
+<!-- The Modal/Lightbox -->
+<div id="myModal" class="modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="modal-content">
+
+    <div class="mySlides">
+      <div class="numbertext">1 / 9</div>
+      <img src="/static/images/scene1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">2 / 9</div>
+      <img src="/static/images/scene2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">3 / 9</div>
+      <img src="/static/images/scene3.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">4 / 9</div>
+      <img src="/static/images/animal1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">5 / 9</div>
+      <img src="/static/images/animal2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">6 / 9</div>
+      <img src="/static/images/animal3.jpg" style="width:100%">
+    </div>
+    
+    <div class="mySlides">
+      <div class="numbertext">7 / 9</div>
+      <img src="/static/images/people1.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">8 / 9</div>
+      <img src="/static/images/people2.jpg" style="width:100%">
+    </div>
+
+    <div class="mySlides">
+      <div class="numbertext">9 / 9</div>
+      <img src="/static/images/people3.jpg" style="width:100%">
+    </div>
+
+    <!-- Next/previous controls -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    <!-- Caption text -->
+    <div class="caption-container">
+      <p id="caption"></p>
+    </div>
+
+    <!-- Thumbnail image controls -->
+    <div class="column2">
+      <img class="demo" src="/static/images/scene1.jpg" onclick="currentSlide(1)" alt="A scene of summer" style="width:100%">
+    </div>
+
+    <div class="column2">
+      <img class="demo" src="/static/images/scene2.jpg" onclick="currentSlide(2)" alt="Fantasy house of vegetables" style="width:100%">
+    </div>
+
+    <div class="column2">
+      <img class="demo" src="/static/images/scene3.jpg" onclick="currentSlide(3)" alt="Band of forest" style="width:100%">
+    </div>
+
+    <div class="column2">
+      <img class="demo" src="/static/images/animal1.jpg" onclick="currentSlide(4)" alt="Yoga kitty" style="width:100%">
+    </div>
+
+    <div class="column2">
+      <img class="demo" src="/static/images/animal2.jpg" onclick="currentSlide(5)" alt="Mosquito witch" style="width:100%">
+    </div>
+
+    <div class="column2">
+      <img class="demo" src="/static/images/animal3.jpg" onclick="currentSlide(6)" alt="Vicious fish" style="width:100%">
+    </div>
+
+    <div class="column2">
+      <img class="demo" src="/static/images/people1.jpg" onclick="currentSlide(7)" alt="Indian girl" style="width:100%">
+    </div>
+
+    <div class="column2">
+      <img class="demo" src="/static/images/people2.jpg" onclick="currentSlide(8)" alt="Heroine of costume drama" style="width:100%">
+    </div>
+
+    <div class="column2">
+      <img class="demo" src="/static/images/people3.jpg" onclick="currentSlide(9)" alt="Modern girl" style="width:100%">
+    </div>
+
+  </div>
+</div>
+
+
+
+
+<script>
+  function openModal() {
+    document.getElementById("myModal").style.display = "block";
+  }
+  
+  function closeModal() {
+    document.getElementById("myModal").style.display = "none";
+  }
+  
+  var slideIndex = 1;
+  showSlides(slideIndex);
+  
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+  
+  function currentSlide(n) {
+    showSlides(slideIndex = n);
+  }
+  
+  function showSlides(n) {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("demo");
+    var captionText = document.getElementById("caption");
+    if (n > slides.length) {slideIndex = 1}
+    if (n < 1) {slideIndex = slides.length}
+    for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+    }
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";
+    dots[slideIndex-1].className += " active";
+    captionText.innerHTML = dots[slideIndex-1].alt;
+  }
+  </script>
+  
+
+  
+  
+{% endblock %}
