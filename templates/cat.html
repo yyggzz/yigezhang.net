@@ -5,53 +5,63 @@
 <!--This is the start of top navigation bar-->
 <div class="topnav">
   <a href="/">About me</a>
-  <a class = active href="/illustration">Illustration</a>
+  <a href="/resume">Resume</a>
+  <a href="/illustration">Illustration</a>
+  <a class = active href="/cat">Cat</a>
   <a href="/game">Game</a>                
   <a href="/contact">Contact</a>
 </div>
 <!--This is the end of top navigation bar-->
 
 <!--This is the intro of the cat page-->
-<p style="text-align:center">Check out my cute cat. Her name is Yami!</p>
 
+<p>Hi, my name is Yami and I am 5 years old now.</p>
+<p>My work is to patrol the house on a daily basis. 
+  As a full-time guard, I always keep an ear to the ground, though I seem to be napping sometimes. 
+  In my free time, I like to catch flies, play with toy mouse, dance at midnight, and step on the shoulder of human to enjoy the scenery. 
+  </p>
 <!--This is the end of the intro of the cat page-->
+
+<link rel="stylesheet" href="{{ url_for('static', filename='image_grid.css') }}">
+
 
 
 <div class="row">
   <div class="column">
-    <img src="wedding.jpg">
-    <img src="rocks.jpg">
-    <img src="falls2.jpg">
-    <img src="paris.jpg">
-    <img src="nature.jpg">
-    <img src="mist.jpg">
-    <img src="paris.jpg">
+    <img src="/static/images_cat/cat1-1.jpg" style="width:100%">
+    <img src="/static/images_cat/cat1-2.jpg" style="width:100%">
+    <img src="/static/images_cat/cat1-3.jpg" style="width:100%">
+    <img src="/static/images_cat/cat1-4.jpg" style="width:100%">
+    <img src="/static/images_cat/cat1-5.jpg" style="width:100%">
   </div>
   <div class="column">
-    <img src="underwater.jpg">
-    <img src="ocean.jpg">
-    <img src="wedding.jpg">
-    <img src="mountainskies.jpg">
-    <img src="rocks.jpg">
-    <img src="underwater.jpg">
+    <img src="/static/images_cat/cat2-1.jpg" style="width:100%">
+    <img src="/static/images_cat/cat2-2.jpg" style="width:100%">
+    <img src="/static/images_cat/cat2-3.jpg" style="width:100%">
+    <img src="/static/images_cat/cat2-4.jpg" style="width:100%">
+    <img src="/static/images_cat/cat2-5.jpg" style="width:100%">
   </div>
   <div class="column">
-    <img src="wedding.jpg">
-    <img src="rocks.jpg">
-    <img src="falls2.jpg">
-    <img src="paris.jpg">
-    <img src="nature.jpg">
-    <img src="mist.jpg">
-    <img src="paris.jpg">
+    <img src="/static/images_cat/cat3-1.jpg" style="width:100%">
+    <img src="/static/images_cat/cat3-2.jpg" style="width:100%">
+    <img src="/static/images_cat/cat3-3.jpg" style="width:100%">
+    <img src="/static/images_cat/cat3-4.jpg" style="width:100%">
+    
+    
   </div>
   <div class="column">
-    <img src="underwater.jpg">
-    <img src="ocean.jpg">
-    <img src="wedding.jpg">
-    <img src="mountainskies.jpg">
-    <img src="rocks.jpg">
-    <img src="underwater.jpg">
+    <img src="/static/images_cat/cat4-1.jpg" style="width:100%">
+    <img src="/static/images_cat/cat4-2.jpg" style="width:100%">
+    <img src="/static/images_cat/cat4-3.jpg" style="width:100%">
+    <img src="/static/images_cat/cat4-4.jpg" style="width:100%">
+    <img src="/static/images_cat/cat4-5.jpg" style="width:100%">
   </div>
+
 </div>
-  
+
+
+
+
+
+
 {% endblock %}

@@ -7,6 +7,10 @@ app = Flask(__name__) ## turn the current file into a flask app
 def home():
     return render_template('about.html')
 
+@app.route('/resume')
+def resume():
+    return render_template('resume.html')
+
 @app.route('/illustration')
 def illustration():
     return render_template('illustration.html')
@@ -15,9 +19,9 @@ def illustration():
 def game():
     return render_template('game.html')
 
-@app.route('/game/index.html')
-def game_1():
-    return render_template('/game/index.html')
+@app.route('/cat')
+def cat():
+    return render_template('/cat.html')
 
 
 

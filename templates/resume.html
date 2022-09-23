@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block div %}
+
+<!--This is the start of top navigation bar-->
+<div class="topnav">
+  <a href="/">About me</a>
+  <a class = active href="/resume">Resume</a>
+  <a href="/illustration">Illustration</a>
+  <a href="/cat">Cat</a>
+  <a href="/game">Game</a>                
+  <a href="/contact">Contact</a>
+</div>
+<!--This is the end of top navigation bar-->
+
+<link rel="stylesheet" href="{{ url_for('static', filename='resume.css') }}">
+
+<div class="splitbar">
+<nav>
+  <ul>
+    <li><a href="#section-1">Education</a></li>
+    <li><a href="#section-2">Technical Skills</a></li>
+    <li><a href="#section-3">Projects</a></li>
+    <li><a href="#section-4">Work Experience</a></li>
+    <li><a href="#section-5">Languages</a></li>
+  </ul>
+</nav>
+
+<main>
+  <section id="section-1">
+    <h2>Education</h2>
+    <p>University of Colorado Boulder, 2016-2020</p>
+    <small>Ph.D. in Structural Engineering and Structural Mechanics</small>
+    <p>Ecole des Ponts ParisTech, 2013-2015</p>
+    <small>M.S. in Material Science for Sustainable Construction & Ing&eacutenieur of Civil Engineering</small>
+    <p>Tongji University, 2008-2016</p>
+    <small>M.S. in Structural Engineering & B.S. in Civil Engineering</small>  
+  </section>
+  
+  <section id="section-2">
+    <h2>Technical Skills</h2>
+    <ul>
+      <li>LANGUAGES: Python, C++, HTML/ CSS/ JavaScript, R, MATLAB, SQL</li>
+      <li>FRAMEWORKS & LIBRARIES: Flask, Bootstrap, TensorFlow, pygame, NumPy</li>
+      <li>TOOLS: Git, VSCode, Linux</li>
+      <li>OTHER: LaTeX, Data Analysis and Statistics, Finite Element Analysis</li>
+    </ul>
+  </section>
+  
+  <section id="section-3">
+    <h2>Projects</h2>
+    <p>Web development</p>
+    <p>Data Structure Study</p>
+    <p>Material Science Research Project</p>
+    <p>Game Software development</p>
+  </section>
+
+  <section id="section-4">
+    <h2>Work Experience</h2>
+    <p>Princeton University</p>
+    <p>University of Colorado Boulder</p>
+    <p>University of Colorado Boulder</p>
+    <p>Lafarge Centre de Recherche</p>
+  </section>
+  
+  <section id="section-5">
+    <h2>Languages</h2>
+    <ul>
+      <li>English (Fluent)</li>
+      <li>Frence (Fluent)</li>
+      <li>Chinese (Native)</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  Download my PDF resume
+</footer>
+</div>
+<script src="/static/resume.js"></script>
+{% endblock %}
