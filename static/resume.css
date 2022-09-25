@@ -11,7 +11,7 @@ html {
   width: 100%; 
   margin: 0; 
   display: grid; 
-  grid-template-columns: 1fr 3fr;
+  grid-template-columns: 1fr 4fr;
 
 }
 
@@ -26,7 +26,7 @@ nav {
   white-space: nowrap;
   background: #1B2430;
   font-family: Averta, sans-serif;
-  padding: 1rem;
+  padding: 1rem 0;
   text-align: center;
 
 }
@@ -48,6 +48,7 @@ nav ul li a {
   padding: 1rem 1rem;
   color: white;
   text-decoration: none;
+  font-size: large;
 }
 nav ul li a.current {
   background: #816797;
@@ -58,11 +59,11 @@ nav ul li a:hover {
 }
 
 main {
-  padding-bottom: 2rem;
+  padding-bottom: 5rem;
 }
 section {
-  padding: 1em 2em;
-  margin: 0 0 1rem 0;
+  padding: 0em 2em;
+  margin: 0 0 2rem 0;
 }
 footer {
   grid-column: 1 / 3;
