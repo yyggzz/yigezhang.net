@@ -1421,3 +1421,64 @@ INFO:werkzeug:127.0.0.1 - - [25/Sep/2022 16:09:14] "GET /resume HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [25/Sep/2022 16:09:14] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [25/Sep/2022 16:09:14] "[36mGET /static/resume.css HTTP/1.1[0m" 304 -
 INFO:werkzeug:127.0.0.1 - - [25/Sep/2022 16:09:14] "[36mGET /static/resume.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 146-597-754
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:16:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:16:43] "GET /static/main.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:16:44] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:17:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:17:28] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:18:40] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:18:40] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:18:50] "GET /resume HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:18:50] "GET /static/resume.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:18:50] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:18:50] "GET /static/resume.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:20:10] "GET /resume HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:20:10] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:20:10] "[36mGET /static/resume.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:20:10] "[36mGET /static/resume.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:20:18] "GET /resume HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:20:18] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:20:18] "[36mGET /static/resume.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:20:18] "[36mGET /static/resume.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:02] "GET /illustration HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:02] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:02] "GET /static/image_lightbox.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:02] "GET /static/images/scene1.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:02] "GET /static/images/scene2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:02] "GET /static/images/animal1.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:02] "GET /static/images/animal2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:02] "GET /static/images/scene3.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:02] "GET /static/images/animal3.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:03] "GET /static/images/people2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:03] "GET /static/images/people1.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:03] "GET /static/images/people3.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /cat HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/image_grid.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat1-1.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat1-2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat1-3.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat1-4.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat1-5.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat2-1.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat2-2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat2-3.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat2-4.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat2-5.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat3-1.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat3-2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat3-3.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat4-4.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat4-2.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat4-3.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat4-5.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat4-1.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:13] "GET /static/images_cat/cat3-4.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [04/Oct/2022 11:21:21] "[36mGET /static/main.css HTTP/1.1[0m" 304 -
